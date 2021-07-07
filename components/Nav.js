@@ -7,7 +7,7 @@ const Nav = () => {
         <a>Home</a>
       </Link>
       <Link href="/about">
-        <a>About</a>
+        <a data-cy="nav-link-about">About</a>
       </Link>
     </nav>
   );

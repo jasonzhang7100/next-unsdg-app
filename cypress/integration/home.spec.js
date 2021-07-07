@@ -6,7 +6,7 @@ context('Home Page Test', () => {
   });
 
   it('should navigate to About Us page', () => {
-    cy.get('[data-cy=nav-link-about]').contains('About').onclick;
+    cy.get('[data-cy=nav-link-about]').contains('About').click();
     cy.url().should('include', '/about');
   });
 });
