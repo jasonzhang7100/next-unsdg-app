@@ -1,11 +1,16 @@
+import Image from 'next/image';
+
 import GoalLIst from '../components/GoalLIst';
+import bgImg from '../public/background.jpeg';
 
 export default function Home({ goals }) {
   return (
-    <div>
-      <h1>hello next</h1>
+    <>
+      <div className="absolute min-w-360 -z-10">
+        <Image src={bgImg} alt="bg" />
+      </div>
       <GoalLIst goals={goals} />
-    </div>
+    </>
   );
 }
 

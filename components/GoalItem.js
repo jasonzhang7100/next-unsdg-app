@@ -1,5 +1,5 @@
 const GoalItem = ({ goal }) => {
-  return <div>{goal.title}</div>;
+  return <h2 className="text-sm lg:text-lg xl:text-xl">{goal.title}</h2>;
 };
 
 export default GoalItem;

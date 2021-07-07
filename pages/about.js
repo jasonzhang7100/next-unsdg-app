@@ -4,7 +4,7 @@ const about = () => {
   return (
     <>
       <Meta title="About" />
-      <h1>This is About Us page</h1>
+      <h1 className="ml-8 text-2xl">This is About Us page</h1>
     </>
   );
 };
