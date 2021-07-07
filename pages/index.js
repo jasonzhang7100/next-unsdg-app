@@ -1,10 +1,10 @@
+import GoalLIst from '../components/GoalLIst';
+
 export default function Home({ goals }) {
   return (
     <div>
       <h1>hello next</h1>
-      {goals.map((goal) => (
-        <h2 key={goal.code}>{goal.title}</h2>
-      ))}
+      <GoalLIst goals={goals} />
     </div>
   );
 }
@@ -14,7 +14,6 @@ export const getStaticProps = async () => {
     'https://unstats.un.org/SDGAPI/v1/sdg/Goal/List?includechildren=false',
   );
   const goals = await res.json();
-  console.log(goals);
   return {
     props: {
       goals,
