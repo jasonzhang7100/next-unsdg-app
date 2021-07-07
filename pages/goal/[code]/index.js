@@ -1,5 +1,7 @@
+import GoalDetail from '../../../components/GoalDetail';
+
 const goal = ({ goal }) => {
-  return <div>{JSON.stringify(goal)}</div>;
+  return <GoalDetail goal={goal} />;
 };
 
 export const getServerSideProps = async (context) => {
