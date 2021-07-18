@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/56181b0e-2462-47fd-a25b-7850681b9db5/deploy-status)](https://app.netlify.com/sites/unsdg-goals/deploys)
+
 This is a [Next.js](https://nextjs.org/) project to show static generated UN SDG targets.
 
 It is bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
