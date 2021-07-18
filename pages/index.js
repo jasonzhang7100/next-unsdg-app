@@ -10,7 +10,7 @@ export default function Home({ goals }) {
         <Image src={bgImg} alt="bg" />
       </div>
       <h1 className="w-2/5 mt-16 md:mt-36 lg:mt-96 ml-6 lg:ml-10 text-gray-200 font-extralight text-3xl md:text-7xl xl:text-8xl">
-        17 GOALS TO TRANSFORM OUR WORLD
+        17 GOALS TO TRANSFORM THE WORLD
       </h1>
       <GoalLIst goals={goals} />
     </>
